@@ -18,23 +18,59 @@ body{
    display: flex;
    justify-content: center;
    margin: 0px;
-   width: 35%;
-   height: 35%;
- }
- 
- p{
-   color: #FFFFFF;;
-   font-size: 20pt;
-   font-family: 'Arial', sans-serif;
-   font-weight: bold;
-   margin: 10px;
-   text-align: end;
+   width: 55%;
+   height: 60%;
  }
 
- .box h1{
+ .fundoDasCaixas{
+   background-color: #CD4D00;
+   height: 300px;
+   
+ }
+
+ .boxElement{
+  position: relative;
+   width: 200px;
+   height: 200px;
+   line-height: 200px;
    color: #CD4D00;
+   text-transform: uppercase;
+   text-align: center;
+   margin-right: 20px;
+   margin-left: 20px;
+   margin-top: 50px;
+ }
+
+ .boxElement_html{
+   background-color: #FFFEFE;
    font-size: 20pt;
    font-family: 'Arial', sans-serif;
-   display: flex;
    justify-content: center;
- }
+   float: left;
+}
+
+.boxElement_css{
+  background-color: #FFFEFE;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  float: left;
+}
+
+.boxElement_javascript{
+  background-color: #FFFEFE;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  justify-content: center;
+  float: right;
+}
+
+p{
+  clear: left;
+  color: #FFFFFF;;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+  text-align: end;
+}
