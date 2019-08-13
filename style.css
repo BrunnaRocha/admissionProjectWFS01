@@ -1,7 +1,6 @@
 body{
     background-color: rgb(89, 94, 150);
     margin: 100px;
-    overflow-x: hidden;
  }
  
  h1{
@@ -13,18 +12,38 @@ body{
     text-align: center;
  }
 
+ .fotoLogo{
+   display: flex;
+   justify-content: center;
+   margin-top: 0%;
+ }
+
  img{
    position: relative;
    display: flex;
    justify-content: center;
    margin: 0px;
-   width: 55%;
+   width: 45%;
    height: 60%;
  }
+
+ .ajusteDoParagrafo{
+  text-align: right;
+  justify-content: right;
+  margin: 300px;
+}
+
+p{
+  color: #FFFFFF;;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
 
  .fundoDasCaixas{
    background-color: #CD4D00;
    height: 300px;
+   margin-top: 30%;
    
  }
 
@@ -45,6 +64,7 @@ body{
    background-color: #FFFEFE;
    font-size: 20pt;
    font-family: 'Arial', sans-serif;
+   font-weight: bold;
    justify-content: center;
    float: left;
 }
@@ -53,6 +73,7 @@ body{
   background-color: #FFFEFE;
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
+  font-weight: bold;
   justify-content: center;
   float: left;
 }
@@ -61,16 +82,38 @@ body{
   background-color: #FFFEFE;
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
+  font-weight: bold;
   justify-content: center;
   float: right;
 }
 
-p{
-  clear: left;
-  color: #FFFFFF;;
+.ajusteDoFormulario{
+  display: flex;
+  justify-content: center;
+  background-color: #D7D7D7;
+  height: 300px;
+  margin-top: 0%;
+}
+
+.ajusteDoEmail{
+  background-color:#FFFBFB;
+  color: #6E6E6E;
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
-  margin: 10px;
-  text-align: end;
+  justify-content: center;
+  float: left;
+  height: 30px;
+}
+
+.ajustedoEnviar{
+  background-color:#CD4D00;
+  color: #FFFEFE;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  float: left;
+  height: 30px;
+  width: 150px;
 }
