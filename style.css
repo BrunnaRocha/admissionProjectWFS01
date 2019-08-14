@@ -1,6 +1,5 @@
 body{
     background-color: rgb(89, 94, 150);
-    margin: 100px;
  }
  
  h1{
@@ -30,7 +29,7 @@ body{
  .ajusteDoParagrafo{
   text-align: right;
   justify-content: right;
-  margin: 300px;
+  display: grid;
 }
 
 p{
@@ -44,11 +43,10 @@ p{
    background-color: #CD4D00;
    height: 300px;
    margin-top: 30%;
-   
  }
 
  .boxElement{
-  position: relative;
+   position: relative;
    width: 200px;
    height: 200px;
    line-height: 200px;
@@ -58,6 +56,8 @@ p{
    margin-right: 20px;
    margin-left: 20px;
    margin-top: 50px;
+   display: inline-block;
+   
  }
 
  .boxElement_html{
