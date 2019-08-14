@@ -1,5 +1,6 @@
 body{
     background-color: rgb(89, 94, 150);
+    margin: 0%;
  }
  
  h1{
@@ -37,12 +38,15 @@ p{
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
-}
+  }
 
  .fundoDasCaixas{
    background-color: #CD4D00;
    height: 300px;
    margin-top: 30%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
  }
 
  .boxElement{
@@ -56,11 +60,10 @@ p{
    margin-right: 20px;
    margin-left: 20px;
    margin-top: 50px;
-   display: inline-block;
-   
  }
 
  .boxElement_html{
+   display: flex;
    background-color: #FFFEFE;
    font-size: 20pt;
    font-family: 'Arial', sans-serif;
@@ -70,6 +73,7 @@ p{
 }
 
 .boxElement_css{
+  display: flex;
   background-color: #FFFEFE;
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
@@ -79,6 +83,7 @@ p{
 }
 
 .boxElement_javascript{
+  display: flex;
   background-color: #FFFEFE;
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
