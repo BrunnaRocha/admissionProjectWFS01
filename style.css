@@ -38,6 +38,8 @@ p{
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
+  margin-top: 250px;
+  margin-right: 50px;
   }
 
  .fundoDasCaixas{
@@ -47,6 +49,7 @@ p{
    display: flex;
    justify-content: space-around;
    align-items: center;
+   margin-top: 0px;
  }
 
  .boxElement{
@@ -70,6 +73,7 @@ p{
    font-weight: bold;
    justify-content: center;
    float: left;
+   margin-top: 0%;
 }
 
 .boxElement_css{
@@ -80,6 +84,7 @@ p{
   font-weight: bold;
   justify-content: center;
   float: left;
+  margin-top: 0%;
 }
 
 .boxElement_javascript{
@@ -90,14 +95,16 @@ p{
   font-weight: bold;
   justify-content: center;
   float: right;
+  margin-top: 0%;
 }
 
 .ajusteDoFormulario{
-  display: flex;
-  justify-content: center;
   background-color: #D7D7D7;
   height: 300px;
   margin-top: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .ajusteDoEmail{
@@ -106,9 +113,12 @@ p{
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
+  text-align: center;
   justify-content: center;
   float: left;
   height: 30px;
+  padding: 1%;
+
 }
 
 .ajustedoEnviar{
@@ -117,8 +127,10 @@ p{
   font-size: 20pt;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
+  text-align: center;
   justify-content: center;
   float: left;
   height: 30px;
-  width: 150px;
+  width: 130px;
+  padding: 1%;
 }
