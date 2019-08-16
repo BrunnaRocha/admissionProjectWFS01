@@ -134,3 +134,17 @@ p{
   width: 130px;
   padding: 1%;
 }
+
+button#botaodeenviar {
+  background-color:#CD4D00;
+  color: #FFFEFE;
+  font-size: 20pt;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  float: left;
+  height: 30px;
+  width: 130px;
+  padding: 1%;
+}

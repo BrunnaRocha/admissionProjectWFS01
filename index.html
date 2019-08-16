@@ -35,16 +35,22 @@
         <div class="ajusteDoEmail">
             Coloque aqui o seu e-mail
         </div>
-        <div class="ajustedoEnviar">
-            Enviar
+        <div class="ajustedoEnviar" onclick="enviaOEmail()"> 
+            <button id="botao-de-enviar">
+             Enviar
+             </button>
         </div>
     </article>
+
+    <script type="text/javascript" src="script.js">
+        function enviaOEmail() {
+            alert('O e-mail foi enviado!')
+        }
+        <form onsubmit="suaFuncao">
+
+        </form>
+    </script>
     
-    <form onsubmit="suaFuncao">
-        <input type="email" id="enderecoEletronico" placeholder="Coloque aqui o seu email" name="email">
-        <input type="button" id="buttonEnviar" onclick="boasVindas()" value="enviar">
-        <script src="script.js"></script>
-    </form>
 
 </body>
 
