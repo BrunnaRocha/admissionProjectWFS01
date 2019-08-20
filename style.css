@@ -135,7 +135,8 @@ p{
   padding: 1%;
 }
 
-button#botaodeenviar {
+button#botao-de-enviar {
+  border: #CD4D00;
   background-color:#CD4D00;
   color: #FFFEFE;
   font-size: 20pt;
