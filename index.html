@@ -9,13 +9,11 @@
     <title>Projeto Future4</title>
 
     <script>
-            document.getElementById("botao-de-enviar").onclick = function() {myEmailFunction()};
-
-            function myEmailFunction()
+            function enviarEmail()
             {
-             document.getElementById("bota-de-enviar").innerHTML = "O e-mail foi enviado com sucesso!";
+                document.getElementById("botao-de-enviar").innerHTML = function() {enviarEmail()};
             }
-        </script>
+    </script>
 
 </head>
 
@@ -44,7 +42,7 @@
     <article class="ajusteDoFormulario">
             <form>
                 <input class="ajusteDoEmail" type="email" id="email" placeholder="Coloque aqui o seu e-mail" name="email">
-                <button onclick="myEmailFunction" value="Alert" class="ajustedoEnviar" id="botao-de-enviar"> Enviar </button>
+                <button onclick="enviarEmail()"  value=" exibir Alert" class="ajustedoEnviar" id="botao-de-enviar"> Enviar </button>
             </form>
     </article>  
     
