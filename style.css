@@ -112,6 +112,10 @@ p{
   height: 300px;
 }
 
+form{
+  display: flex;
+}
+
 .ajusteDoEmail{
   background-color:#FFFBFB;
   color: #6E6E6E;
@@ -126,8 +130,6 @@ p{
 }
 
 .ajustedoEnviar{
-  display: grid;
-  margin-left: 10px;
   margin-bottom: 0px;
   background-color:#CD4D00;
   color: #FFFEFE;
@@ -137,7 +139,7 @@ p{
   text-align: center;
   justify-content: center;
   float: right;
-  height: 40px;
+  height: 45px;
   width: 140px;
   padding: 1%;
 }
